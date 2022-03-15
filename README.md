@@ -5,7 +5,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
-img/screeshot.jpg
+![Design preview for QR code](./img/screeshot.jpg)
 
 ### Links
 
