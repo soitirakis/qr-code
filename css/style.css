@@ -1,0 +1,59 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+
+  --font-family: "Outfit", sans-serif;
+  --font-size: 15px;
+
+  --padding: 1.25rem;
+
+  --border-radius: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  font-family: var(--font-family);
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: var(--light-grey);
+}
+.card {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 375px;
+  padding: var(--padding);
+  background-color: var(--white);
+  box-shadow: 5px 10px 10px var(--grayish-blue);
+}
+
+/*|| QR image design */
+.card-image {
+  max-width: 100%;
+  object-fit: cover;
+}
+.card, .card-image {
+  border-radius: var(--border-radius);
+}
+
+/*|| Heading  */
+.card-title {
+  color: var(--dark-blue);
+  font-weight: 700;
+  padding: 20px 0px;
+}
+.card-description {
+  color: var(--grayish-blue);
+  font-size: var(--font-size);
+  font-weight: 400;
+  padding-bottom: var(--padding);
+}
